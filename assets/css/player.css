@@ -1,0 +1,14 @@
+/*Bienvenido*/
+
+div {
+	width: 100px;
+	height: 100px;
+	background: #101010;
+	color: #000;
+	font-size: 30px;
+/*	display: inline;*/
+}
+
+.caja {
+	position: relative;
+}
