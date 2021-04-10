@@ -165,6 +165,8 @@
 							pos += settings.carousels.speed;
 
 							if (pos >= leftLimit) {
+								//Simula un click en la flecha de la derecha
+trigger(arrowleft,'click');
 
 								window.clearInterval(timerId);
 								pos = leftLimit;
